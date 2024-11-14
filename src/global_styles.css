@@ -1,0 +1,33 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.form-step {
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.step-navigation {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.step-indicator {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.step-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #dee2e6;
+}
+
+.step-dot.active {
+  background: #0d6efd;
+}
